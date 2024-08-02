@@ -1,6 +1,6 @@
 class Api::V1::PostsController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
-  # before_action :set_post, only: [:show, :update, :destroy]
+  before_action :set_post, only: [:show, :update, :destroy]
 
   def index
     @posts = Post.all
@@ -14,7 +14,6 @@ class Api::V1::PostsController < ApplicationController
     else
       render json: { data: [], error: "No data" }, status: :ok
     end
-    # render json: @posts.as_json(include: { user: { only: [:id, :name] } })
   end
   
   def show
