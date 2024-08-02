@@ -7,11 +7,21 @@ You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
 ```bash
 bundle install
 ```
+
 #runs server
+set master.key
+```bash
+78d86813597629e7c9a91071664ba0a1
+```
+run
 ```bash
 rails s
 ```
+
 #runs test
+```bash
+rails db:test:prepare
+```
 ```bash
 rails test
 ```
