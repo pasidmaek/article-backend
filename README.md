@@ -9,7 +9,9 @@ bundle install
 ```
 
 #runs server
-run
+```bash
+rails db:migrate
+```
 ```bash
 rails s
 ```
