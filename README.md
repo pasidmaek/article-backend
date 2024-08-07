@@ -3,16 +3,16 @@
 ## How to Use
 You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
 
-#install gem
+## install gem
 ```bash
 bundle install
 ```
 
-#runs server
+## runs server
 ```bash
 rails db:migrate
 ```
-for create database first (OPTIONAL)
+### for create database first (OPTIONAL)
 ```bash
 rails db:seed
 ```
@@ -20,7 +20,7 @@ rails db:seed
 rails s
 ```
 
-#runs test
+## runs test
 ```bash
 rails db:test:prepare
 ```
@@ -30,17 +30,17 @@ rails test
 
 ## Model Overview:
 - Posts ("/api/v1/posts"):
-  -- index => show all post
-  -- show_my_post => show only user's post
-  -- create => crate post
-  -- show[:id] => show post specific by id
-  -- update[:id] => update post
-  -- destroy[:id] => destroy post
+  - index => show all post
+  - show_my_post => show only user's post
+  - create => crate post
+  - show[:id] => show post specific by id
+  - update[:id] => update post
+  - destroy[:id] => destroy post
 
 - Authentication ("/login, /signup, /logout"):
-  -- login ("/login")
-  -- signup ("/signup")
-  -- logout ("/logout")
+  - login ("/login")
+  - signup ("/signup")
+  - logout ("/logout")
   
 ## API link (Postman)
 ```bash
