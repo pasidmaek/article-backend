@@ -44,5 +44,5 @@ rails test
   
 ## API link (Postman)
 ```bash
-https://elements.getpostman.com/redirect?entityId=26557824-72d6ed4e-4970-4df0-9802-a7fdad015eb3&entityType=collection
+https://www.postman.com/lunar-escape-852747/workspace/app/request/26557824-778635d9-7e29-4ac7-b3ff-d3ef9909f34c
 ```
