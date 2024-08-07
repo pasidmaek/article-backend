@@ -12,6 +12,10 @@ bundle install
 ```bash
 rails db:migrate
 ```
+for create database first (OPTIONAL)
+```bash
+rails db:seed
+```
 ```bash
 rails s
 ```
