@@ -9,10 +9,6 @@ bundle install
 ```
 
 #runs server
-set master.key
-```bash
-78d86813597629e7c9a91071664ba0a1
-```
 run
 ```bash
 rails s
